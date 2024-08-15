@@ -1,3 +1,53 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da82a15e13b7163aef0def74f6e4e6fc5d1531269562e557084403ff032e62fb
-size 39
+# Set default behavior for text files
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+*.sln    merge=union
+*.csproj merge=union
+*.vbproj merge=union
+*.fsproj merge=union
+*.dbproj merge=union
+
+# Standard to msysgit
+*.doc   diff=astextplain
+*.DOC   diff=astextplain
+*.docx  diff=astextplain
+*.DOCX  diff=astextplain
+*.dot   diff=astextplain
+*.DOT   diff=astextplain
+*.pdf   diff=astextplain
+*.PDF   diff=astextplain
+*.rtf   diff=astextplain
+*.RTF   diff=astextplain
+
+# Additions
+# Image files
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.bmp    binary
+*.tiff   binary
+
+# Source code
+*.cpp    diff=cpp
+*.h      diff=cpp
+*.py     diff=python
+*.java   diff=java
+
+# Markdown and other text files
+*.md     text
+*.txt    text
+
+# XML and JSON files
+*.xml    text
+*.json   text
+
+# HTML and CSS files
+*.html   text
+*.css    text
+
+# Shell scripts
+*.sh     text eol=lf
+
